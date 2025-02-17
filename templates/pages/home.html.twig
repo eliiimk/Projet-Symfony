@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<div class="container text-center mt-5">
+    <h1>Bienvenue sur le site de réservation de voyages</h1>
+    <p>Explorez nos offres et réservez votre prochain voyage.</p>
+    <a href="{{ path('app_login') }}" class="btn btn-primary">Se connecter</a>
+</div>
+{% endblock %}
